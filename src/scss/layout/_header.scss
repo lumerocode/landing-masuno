@@ -1,13 +1,14 @@
 .header{
     background-color: var(--azul-nuevo);
+    height: 117px;
+    display: flex;
+    align-items: center;
 
     &__section{
-        padding: 1.5rem 0;
         width: var(--contenedor-desktop);
         margin: 0 auto;
         display: flex;
         justify-content: center;
-
     }
 
 }

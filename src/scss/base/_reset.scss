@@ -12,6 +12,10 @@
     --azul-nuevo: #1A36A8;
     --rojo-nuevo: #D43E36;
     --textos-gris-text: #595959;
+    --gris-sf: #B7B1A9;
+    --rojo-sf: #C12A21;
+    --fucsia-sf: #DB0FA8;
+    --azul-sf: #003383;
     --san-fernando-blanco: #FFFFFF;
     --color-negro: #000000;
 
@@ -25,6 +29,12 @@
   }
   
   body {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
   }
-  
+
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+  }
+
