@@ -1,0 +1,9 @@
+// Base
+@use "./scss/base/reset";
+
+ // Components
+ @use "./scss/components/buttons";
+
+ // Layout
+ @use "./scss/layout/footer";
+ @use "./scss/layout/header";

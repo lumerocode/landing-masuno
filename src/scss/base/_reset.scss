@@ -1,0 +1,30 @@
+/* ===================== AJUSTES GENERALES ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none;
+  }
+  
+  :root {
+    --azul-nuevo: #1A36A8;
+    --rojo-nuevo: #D43E36;
+    --textos-gris-text: #595959;
+    --san-fernando-blanco: #FFFFFF;
+    --color-negro: #000000;
+
+    --contenedor-desktop: 1310px;
+    --contenedor-tablet: 90%;
+    --contenedor-celular: 84%;
+  }
+  
+  html {
+    scroll-behavior: smooth; /*Evita los cambios bruscos entre secciones al hacer scroll*/ 
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif; 
+  }
+  
