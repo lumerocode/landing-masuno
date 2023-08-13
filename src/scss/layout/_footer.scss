@@ -1,0 +1,77 @@
+.footer{
+    margin-top: 2rem;
+    background-color: var(--azul-nuevo);
+
+    &__section{
+        width: var(--contenedor-desktop);
+        margin: 0 auto;
+        display: grid;
+        padding: 4.5rem 0;
+        grid-template-columns: 5fr 4fr 2fr;
+
+        &__column{
+            position: relative;
+            .footer__section--logo{
+                margin-bottom: 2.2rem;
+            }
+
+            .footer__section--title{
+                color: var(--san-fernando-blanco);
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 1.5rem;
+            }
+
+            .footer__section--text{
+                color: var(--san-fernando-blanco);
+                font-size: 16px;
+                font-weight: 300;
+            }
+
+            .footer_section--list{
+                display: flex;
+                flex-direction: column;
+                row-gap: 1rem;
+                margin-bottom: 1.3rem;
+                li{
+                    color: var(--san-fernando-blanco);
+                    font-size: 16px;
+                    font-weight: 300;
+                    cursor: pointer;
+
+                    &:hover{
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .footer__section--book{
+                cursor: pointer;
+                margin-left: 2rem;
+            }
+
+            .footer__section--number{
+                display: flex;
+                margin-bottom: 2.5rem;
+
+                p{
+                    margin-left: 14px;
+                    color: var(--san-fernando-blanco);
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+
+            .red-social{
+                display: flex;
+                column-gap: 1.75rem;
+            }
+
+            .footer__section--address{
+                position: absolute;
+                bottom: 0;
+            }
+
+        }
+    }
+}
