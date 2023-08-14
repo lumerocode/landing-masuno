@@ -6,7 +6,7 @@
 - Colocar en la terminal npm run dev
 
 ## Link de la página desplegada
-[https://hacker-news-test-reign.netlify.app/](https://hacker-news-test-reign.netlify.app/)
+[https://landing-masuno.netlify.app/](https://landing-masuno.netlify.app/)
 
 ## ¿Por qué Vite?
 Se utilizó Vite para crear el entorno de React js, debido a que:
