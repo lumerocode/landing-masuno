@@ -128,6 +128,8 @@
          }
 
          &__right{
+            display: flex;
+            align-items: center;
             
             &--form{
                 background-color: var(--san-fernando-blanco);
@@ -135,7 +137,7 @@
                 height: 599px;
                 backdrop-filter: blur(2px);
                 border-radius: 32px;
-                padding: 2.6rem 2.5rem;
+                padding: 1.3rem 2.5rem;
                 position: relative;
 
                 .cover__section__right--title{
@@ -245,6 +247,45 @@
                                 }
                             }
                         }
+
+                        .captcha{
+                            margin: 15px 0px;
+
+                            .preview{
+                                color: #555;
+                                width: 100%;
+                                text-align: center;
+                                height: 40px;
+                                line-height: 40px;
+                                letter-spacing: 8px;
+                                border: 1px dashed var(--gris-sf);
+                                font-family: "monospace";
+
+                                span {
+                                    display:inline-block;
+                                    user-select:none;
+                                    transform: rotate(-11deg);
+                                    font-family: serif;
+                                  }
+                            }
+
+                            .captcha-form {
+                                display:flex;
+
+                                input {
+                                    width:100%;
+                                }
+
+                                .captcha-refresh {
+                                    width:40px;
+                                    border:none;
+                                    outline:none;
+                                    background-color: var(--azul-nuevo);
+                                    color:var(--san-fernando-blanco);
+                                    cursor:pointer;
+                                  }
+                            }
+                        }
                     }
 
                     .form__button{
@@ -257,8 +298,8 @@
 
                 .cover__section__right--seal{
                     position: absolute;
-                    right: -16px;
-                    top: -60px;
+                    right: -12px;
+                    top: -46px;
                 }
             }
 

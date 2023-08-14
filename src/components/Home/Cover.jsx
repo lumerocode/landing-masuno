@@ -11,7 +11,7 @@ const Cover = () => {
 
     return(
         <section id="cover" className="cover">
-            <section className="cover__section">
+            <div className="cover__section">
                 <div className="cover__section__left">
                     <div className="cover__section__left--first">
                         <img src={Grupo01}/>
@@ -90,14 +90,12 @@ const Cover = () => {
                                 </div>
                                 <div className="form__inputGroup__row">
                                     <div className="captcha">
-                                        <label htmlFor="captcha-input">Enter Captcha</label>
-                                        <div className="preview"></div>
+                                        <div className="preview"><span>H</span><span>N</span><span>4</span><span>d</span><span>0</span><span>ñ</span></div>
                                         <div className="captcha-form">
-                                        <input type="text" id="captcha-form" placeholder="Ingrese captcha"/>
-                                        <button className="captcha-refresh">
-                                        {/* <i className="fa-solid fa-arrow-rotate-right"></i>
-                                        <FontAwesomeIcon icon={faArrowRotateRight} /> */}
-                                        </button>
+                                            <input type="text" id="captcha-form" placeholder="Ingrese captcha"/>
+                                            <button className="captcha-refresh">
+                                            <i className="fa-solid fa-arrow-rotate-right"></i>
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +119,7 @@ const Cover = () => {
                         <p className="cover__section__right--text">Aprovecha las mejores ofertas y descuentos en cerdo, congelados, embutidos <span>y mucho más.</span> No te pierdas de nada estos Cyberdays registrándote y obteniendo grandes descuentos exclusivos.</p>
                     </div>
                 </div>
-            </section>
+            </div>
         </section>
     )
 
