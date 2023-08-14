@@ -1,4 +1,4 @@
-.discount{
+.tech{
 
     &__section{
         width: var(--contenedor-desktop);
@@ -29,10 +29,14 @@
             }
         }
 
+        &__logo{
+            margin-top: 4.8rem;
+        }
+
         &__title{
             color: var(--azul-nuevo);
             text-align: center;
-            margin-top: 3rem;
+            margin-top: 3.5rem;
 
             h2{
                 font-size: 32px;
@@ -42,25 +46,13 @@
             img{
                 margin-top: 10px;
             }
-
         }
+    }
 
-        &__text{
-            margin-top: 1.5rem;
-            color: var(--textos-gris-text);
-            font-size: 24px;
-            font-weight: 600;
-
-            span{
-                color: var(--rojo-nuevo);
-                font-weight: 700;
-            }
-        }
-
-        &__slides{
-            width: 100%;
-            margin-top: 3.25rem;
-        }
+    &__slides{
+        width: var(--contenedor-desktop);
+        margin: 0 auto;
+        padding-top: 3.5rem;
 
     }
 }
