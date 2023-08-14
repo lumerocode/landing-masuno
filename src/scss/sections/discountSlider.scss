@@ -21,4 +21,33 @@
             font-weight: 600;
         }
     }
+
+    .swiper-button-prev, .swiper-button-next{
+
+        &:after{
+            display: block;
+            color: var(--azul-nuevo);
+        }
+    }
 }
+
+  /* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+  @media screen and (max-width: 600px) {
+
+    .myswiper__slider {
+
+        .swiper-slide{
+            display: flex;
+            justify-content: center;
+        }
+
+        .swiper-pagination-bullet{
+            display: none;
+        }
+
+        
+        
+    }
+    
+      
+  }

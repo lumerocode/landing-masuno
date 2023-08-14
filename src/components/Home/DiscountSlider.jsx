@@ -5,21 +5,42 @@ import Slide03 from "../../assets/discount_imagen03.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Importamos Swiper Estilos 
 import 'swiper/css';
+import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 // Importamos modulos requeridos
-import { Pagination } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 
 const DiscountSlider = () => {
 
     return(
         <>
             <Swiper
+            navigation={true}
             slidesPerView={3}
             spaceBetween={30}
             pagination={{
             clickable: true,
             }}
-            modules={[Pagination]}
+            breakpoints={{
+                // Cuando la pantalla es >= 0px
+                0: {
+                    slidesPerView: 1,
+                    spaceBetweenSlides: 30
+  
+                },
+                // Cuando la pantalla es >= 600px
+                600: {
+                  slidesPerView: 2,
+                  spaceBetweenSlides: 30
+
+                },
+                // Cuando la pantalla es >= 768px
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetweenSlides: 30
+                },
+            }}
+            modules={[Navigation, Pagination]}
             className="myswiper__slider"
             >
                 <SwiperSlide>

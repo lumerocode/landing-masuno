@@ -13,7 +13,6 @@ import 'swiper/css/pagination';
 // Importamos modulos requeridos
 import { Navigation, Pagination } from 'swiper/modules';
 
-
 const TechSlider = () => {
 
     return(
@@ -23,6 +22,10 @@ const TechSlider = () => {
                 style={{
                 '--swiper-navigation-color': '#fff',
                 '--swiper-pagination-color': '#fff',
+                }}
+                autoplay={{
+                    delay: 100,
+                    disableOnInteraction: false,
                 }}
                 navigation={true}
                 pagination={{
@@ -39,29 +42,29 @@ const TechSlider = () => {
                             <p>Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. Amet diam dolor tincidunt congue sagittis in.</p>
                             <button className="button-primary">Ver tecnlogía</button>
                         </div>
-                        <img src={Slide01} />
+                        <img className="swiper__zoom--right" src={Slide01} />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
                         <div className="swiper__zoom--left">
                             <img src={Start} />
-                            <h2>PHP</h2>
+                            <h2>Flutter</h2>
                             <p>Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. Amet diam dolor tincidunt congue sagittis in.</p>
                             <button className="button-primary">Ver tecnlogía</button>
                         </div>
-                        <img src={Slide02} />
+                        <img className="swiper__zoom--right" src={Slide02} />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="swiper-zoom-container">
                         <div className="swiper__zoom--left">
                             <img src={Start} />
-                            <h2>PHP</h2>
+                            <h2>Diseño UX/UI</h2>
                             <p>Lorem ipsum dolor sit amet consectetur. Cursus cursus erat massa vel id nunc. Ultricies dui pharetra laoreet laoreet laoreet habitasse iaculis lobortis. Amet diam dolor tincidunt congue sagittis in.</p>
                             <button className="button-primary">Ver tecnlogía</button>
                         </div>
-                        <img src={Slide03} />
+                        <img className="swiper__zoom--right" src={Slide03} />
                     </div>
                 </SwiperSlide>
             </Swiper>

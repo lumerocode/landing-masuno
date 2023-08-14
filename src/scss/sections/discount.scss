@@ -64,3 +64,27 @@
 
     }
 }
+
+
+  /* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+  @media screen and (max-width: 600px) {
+
+    .discount{
+
+        &__section{
+            width: var(--contenedor-celular);
+
+            &__title{
+
+                img{
+                    width: 80%;
+                }
+            }
+        }
+
+    }
+
+      
+  }
+
+

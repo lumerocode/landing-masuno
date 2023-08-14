@@ -103,7 +103,7 @@ const Cover = () => {
 
                             <div className="form__inputGroup--check form__inputGroup--second">
                                 <div className="form_checkGroup">
-                                    <input type="checkbox" className="mycheck" id="mycheck" required/> 
+                                    <input type="checkbox" className="mycheck privacy-policies" id="mycheck" required/> 
                                     <label htmlFor="mycheck">Acepto los <span>Términos y políticas de privacidad</span></label>
                                 </div>
                                 <div className="form_checkGroup">

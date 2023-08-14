@@ -193,6 +193,7 @@
                                 padding: 8px 16px;
                                 font-size: 16px;
                                 outline: none;
+                                color: var(--azul-nuevo);
 
                                 &:focus{
                                     border-color: var(--azul-nuevo);
@@ -317,4 +318,88 @@
             }
          }
     }
+}
+
+/* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
+@media screen and (max-width: 600px) {
+
+    .cover{
+        height: auto;
+        margin-top: -2px;
+
+        &__section{
+            width: var(--contenedor-celular);
+            display: flex;
+            flex-direction: column;
+            padding: 2rem 0;
+
+            &__left{
+
+                .coupon{
+                    width: 100%;
+                    height: auto;
+
+                    &__section{
+                        width: 100%;
+                        height: auto;
+
+                        &__percentage{
+                            display: flex;
+                            flex-direction: column;
+
+                            &--text{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                
+            }
+
+            &__right{
+                margin-top: 4rem;
+
+                &--form{
+                    width: 100%;
+                    height: auto;
+                    padding: 1.5rem;
+
+                    .form{
+
+                        &__inputGroup{
+                            flex-direction: column;
+                            row-gap: 1rem;
+
+                            &__row{
+                                width: 100%;
+                            }
+
+                            &--check{
+
+                                .form_checkGroup{
+                                    .privacy-policies{
+                                        width: 25px;
+                                    }
+                                }
+
+                            }
+                        }
+
+                        button{
+                            width: 100%;
+                        }
+    
+                    }
+
+                    .cover__section__right--seal{
+                        width: 6.25rem;
+
+                    }
+                }
+
+            }
+            
+        }
+    }
+      
 }
