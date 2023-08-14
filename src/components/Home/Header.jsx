@@ -6,7 +6,7 @@ const Header = () => {
     return(
         <nav id="header" className="header">
             <section className="header__section">
-                <img src={Logo} />
+                <img src={Logo} alt="Logo del Header" />
             </section>
         </nav>
     )

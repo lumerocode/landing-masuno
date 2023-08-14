@@ -52,6 +52,50 @@
     }
 }
 
+
+ /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+ @media screen and (max-width: 1024px) {
+    
+    .mySwiper__slider--tech{
+
+        .swiper-zoom-container{
+
+            .swiper__zoom--left{
+                display: grid;
+                justify-items: center;
+
+                h2{
+                    margin: 1rem 0;
+                }
+
+                p{
+                    width: 70%;
+                    margin-bottom: 2rem;
+                    text-align: center;
+                }
+            }
+
+            .swiper__zoom--right{
+                display: none;
+            }
+
+        }
+
+        .swiper-pagination {
+            display: none;
+        }
+
+        .swiper-button-prev, .swiper-button-next{
+
+            &:after{
+                display: block;
+                color: var(--azul-nuevo);
+            }
+        }
+    }
+ }
+
+
   /* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
   @media screen and (max-width: 600px) {
 
@@ -91,9 +135,5 @@
                 color: var(--azul-nuevo);
             }
         }
-
-
     }
-
-      
   }

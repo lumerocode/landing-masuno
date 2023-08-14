@@ -14,7 +14,7 @@ const Cover = () => {
             <div className="cover__section">
                 <div className="cover__section__left">
                     <div className="cover__section__left--first">
-                        <img src={Grupo01}/>
+                        <img src={Grupo01} alt="Grupo"/>
                         <p>ES HORA DE</p>
                     </div>
                     <h1 className="cover__section__left--title">CYBER DAYS</h1>
@@ -35,7 +35,7 @@ const Cover = () => {
                                 <img src={SubrayadoAzul}/>
                             </div>
                             <div className="coupon__section__percentage">
-                                <img src={Porcentaje}/>
+                                <img src={Porcentaje} alt="porcentaje del 10&"/>
                                 <p className="coupon__section__percentage--text">En tu primera compra de <span>CYBER DAYS</span></p>
                             </div>
                             <p className="coupon__section__text">Aplicamos el descuento mediante un código que se te eviará a tu correo registrado.</p>
@@ -45,13 +45,13 @@ const Cover = () => {
                             <p className="coupon__section__text">
                                 *Aplican términos y condiciones
                             </p>
-                            <img className="coupon__section__scissors" src={Scissors}/>
+                            <img className="coupon__section__scissors" src={Scissors} alt="tijeras"/>
                         </div>
                     </div>
                 </div>
                 <div className="cover__section__right">
                     <div className="cover__section__right--form">
-                        <img className="cover__section__right--seal" src={Sello} />
+                        <img className="cover__section__right--seal" src={Sello} alt="Sello de Cyberday" />
                         <div className="cover__section__right--title">
                             <h2>Completa tus datos</h2>
                             <img src={SubrayadoAzulV2} />

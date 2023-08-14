@@ -13,7 +13,7 @@ const Discount = () => {
                 <div className="discount__section__line">
                     <div className="line__separator"></div>
                     <div className="line_group">
-                        <img src={GrupoImagen} />
+                        <img src={GrupoImagen} alt="Grupo" />
                     </div>
                 </div>
                 <div className="discount__section__title">

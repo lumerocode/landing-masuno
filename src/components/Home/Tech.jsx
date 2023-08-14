@@ -11,7 +11,7 @@ const Tech = () => {
                 <div className="tech__section__line">
                     <div className="line__separator"></div>
                     <div className="line_group">
-                        <img src={GrupoImagen} />
+                        <img src={GrupoImagen} alt="Grupo de imagen"/>
                     </div>
                 </div>
                 <img className="tech__section__logo" src={Logo} />

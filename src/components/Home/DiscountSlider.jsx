@@ -46,7 +46,7 @@ const DiscountSlider = () => {
                 <SwiperSlide>
                     <div className="discount__section--slide">
                         <h2>Paso 1</h2>
-                        <img src={Slide01} />
+                        <img src={Slide01} alt="Imagen de regístrate" />
                         <h2>Regístrate</h2>
                         <p>Completa el formulario con tus datos personales y acepta los términos.</p>
                     </div>
@@ -54,7 +54,7 @@ const DiscountSlider = () => {
                 <SwiperSlide>
                     <div className="discount__section--slide">
                         <h2>Paso 2</h2>
-                        <img src={Slide02} />
+                        <img src={Slide02} alt="Imagen de Recibe un cupón" />
                         <h2>Recibe un cupón</h2>
                         <p>Recibirás un correo electrónico donde podrás ver el cupón de descuento.</p>
                     </div>
@@ -62,7 +62,7 @@ const DiscountSlider = () => {
                 <SwiperSlide>
                     <div className="discount__section--slide">
                         <h2>Paso 3</h2>
-                        <img src={Slide03} />
+                        <img src={Slide03} alt="Imagen de Empieza a ahorrar" />
                         <h2>Empieza a ahorrar</h2>
                         <p>¡Y listo! Podrás usarlo del 28 al 30 de Marzo por compras en nuestra tienda online.</p>
                     </div>

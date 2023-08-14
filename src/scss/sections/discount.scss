@@ -66,6 +66,24 @@
 }
 
 
+ /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+ @media screen and (max-width: 1024px) {
+
+    .discount{
+
+        &__section{
+            width: var(--contenedor-tablet);
+
+            &__title{
+
+                img{
+                    width: 80%;
+                }
+            }
+        }
+    }
+ }
+
   /* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
   @media screen and (max-width: 600px) {
 
@@ -81,7 +99,6 @@
                 }
             }
         }
-
     }
 
       

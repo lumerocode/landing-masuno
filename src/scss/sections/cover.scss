@@ -1,6 +1,5 @@
 .cover{
     background-color: var(--azul-nuevo);
-    height: calc(100vh - 117px);
     
     &__section{
         width: var(--contenedor-desktop);
@@ -10,6 +9,7 @@
         padding: 3.2rem 0 4rem;
 
          &__left{
+            height: auto;
 
             &--first{
                 display: flex;
@@ -320,6 +320,35 @@
     }
 }
 
+
+/* ===================== MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px) {
+    
+    .cover{
+        height: auto;
+        margin-top: -2px;
+
+        &__section{
+            width: var(--contenedor-tablet);
+            display: flex;
+            flex-direction: column;
+            padding: 2rem 0 3rem;
+            row-gap: 4rem;
+
+            &__left{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__right{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
 
@@ -353,7 +382,6 @@
                         }
                     }
                 }
-                
             }
 
             &__right{
@@ -381,25 +409,19 @@
                                         width: 25px;
                                     }
                                 }
-
                             }
                         }
 
                         button{
                             width: 100%;
                         }
-    
                     }
 
                     .cover__section__right--seal{
                         width: 6.25rem;
-
                     }
                 }
-
             }
-            
         }
     }
-      
 }
